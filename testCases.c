@@ -66,6 +66,99 @@ void TestQ1_norm() {
 	tearDown(result);
 }
 
+void TestQ1_add_Custom1() {
+
+    printf("\n=== TestQ1_add_Custom1() ===\n");
+	int result = 0;
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 1/3 more test case under TestQ1_add_Custom1()!!\n");		
+
+    tearDown(result);		
+}
+void TestQ1_add_Custom2() {
+
+    printf("\n=== TestQ1_add_Custom2() ===\n");
+	int result = 0;
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 2/3 more test case under TestQ1_add_Custom2()!!\n");		
+
+    tearDown(result);		
+}
+void TestQ1_add_Custom3() {
+
+    printf("\n=== TestQ1_add_Custom3() ===\n");
+	int result = 0;
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 3/3 more test case under TestQ1_add_Custom3()!!\n");		
+
+    tearDown(result);		
+}
+    
+void TestQ1_scalar_prod_Custom1() {
+
+    printf("\n=== TestQ1_scalar_prod_Custom1() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 1/3 more test case under TestQ1_scalar_prod_Custom1()!!\n");		
+
+	tearDown(result);
+}
+void TestQ1_scalar_prod_Custom2() {
+
+    printf("\n=== TestQ1_scalar_prod_Custom2() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 2/3 more test case under TestQ1_scalar_prod_Custom2()!!\n");		
+
+	tearDown(result);
+}
+void TestQ1_scalar_prod_Custom3() {
+
+    printf("\n=== TestQ1_scalar_prod_Custom3() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 3/3 more test case under TestQ1_scalar_prod_Custom3()!!\n");		
+
+	tearDown(result);
+}
+
+void TestQ1_norm_Custom1() {
+
+    printf("\n=== TestQ1_norm_Custom1() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 1/3 more test case under TestQ1_norm_Custom1()!!\n");	
+
+	tearDown(result);
+}
+void TestQ1_norm_Custom2() {
+
+    printf("\n=== TestQ1_norm_Custom2() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 2/3 more test case under TestQ1_norm_Custom2()!!\n");	
+
+	tearDown(result);
+}
+void TestQ1_norm_Custom3() {
+
+    printf("\n=== TestQ1_norm_Custom3() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q1 REMINDER]: Add 3/3 more test case under TestQ1_norm_Custom3()!!\n");	
+
+	tearDown(result);
+}
+
 //===========================================================
 //=================Question 2================================  
 
@@ -83,6 +176,37 @@ void TestQ2() {
 	int i;
 	for (i=0; i<n*n; i++)
         result &= assert_equal_int(expected[i], actual[i]);
+
+	tearDown(result);
+}
+
+void TestQ2_Custom1() {
+
+    printf("\n=== TestQ2_Custom1() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q2 REMINDER]: Add 1/3 more test case under TestQ2_Custom1()!!\n");	
+
+	tearDown(result);
+}
+void TestQ2_Custom2() {
+
+    printf("\n=== TestQ2_Custom2() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q2 REMINDER]: Add 2/3 more test case under TestQ2_Custom2()!!\n");	
+
+	tearDown(result);
+}
+void TestQ2_Custom3() {
+
+    printf("\n=== TestQ2_Custom3() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q2 REMINDER]: Add 3/3 more test case under TestQ2_Custom3()!!\n");	
 
 	tearDown(result);
 }
@@ -151,6 +275,27 @@ void TestQ3_combined() {
 
 	tearDown(result);
 }
+
+void TestQ3_combined_Custom1() {
+
+    printf("\n=== TestQ3_combined_Custom1() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q3 REMINDER]: Add 1/2 more test case under TestQ3_combined_Custom1()!!\n");	
+
+	tearDown(result);
+}
+void TestQ3_combined_Custom2() {
+
+    printf("\n=== TestQ3_combined_Custom2() ===\n");
+	int result = 0; 
+
+	// Add one more test cases here
+    printf("[Q3 REMINDER]: Add 2/2 more test case under TestQ3_combined_Custom2()!!\n");	
+
+	tearDown(result);
+}
     
 
 //===========================================================
@@ -197,6 +342,17 @@ void TestQ4_BubbleSort_2()
 	tearDown(result);
 }
 
+void TestQ4_BubbleSort_Custom() 
+{
+    printf("\n=== TestQ4_BubbleSort_Custom() ===\n");
+	int result = 0;
+
+	// Add one more test cases here
+    printf("[Q4 REMINDER]: Add 1 more test case under TestQ4_BubbleSort_Custom()!!\n");	
+
+	tearDown(result);
+}
+
 void TestQ4_SelectionSort_1() 
 {
     printf("\n=== TestQ4_SelectionSort_1() ===\n");
@@ -239,6 +395,17 @@ void TestQ4_SelectionSort_2()
 	tearDown(result);
 }
 
+void TestQ4_SelectionSort_Custom() 
+{
+    printf("\n=== TestQ4_SelectionSort_Custom() ===\n");
+	int result = 0;
+
+	// Add one more test cases here
+    printf("[Q4 REMINDER]: Add 1 more test case under TestQ4_SelectionSort_Custom()!!\n");	
+
+	tearDown(result);
+}
+
 
 
 //===========================================================
@@ -248,16 +415,33 @@ void TestQ4_SelectionSort_2()
 		TestQ1_scalar_prod();
 		TestQ1_norm();
 
+		TestQ1_add_Custom1();
+		TestQ1_add_Custom2();
+		TestQ1_add_Custom3();
+		TestQ1_scalar_prod_Custom1();
+		TestQ1_scalar_prod_Custom2();
+		TestQ1_scalar_prod_Custom3();
+		TestQ1_norm_Custom1();
+		TestQ1_norm_Custom2();
+		TestQ1_norm_Custom3();
+
 		TestQ2();
+		TestQ2_Custom1();
+		TestQ2_Custom2();
+		TestQ2_Custom3();
 
 		TestQ3_1();
 		TestQ3_zeros();
 		TestQ3_combined();
+		TestQ3_combined_Custom1();
+		TestQ3_combined_Custom2();
 
 		TestQ4_BubbleSort_1();
 		TestQ4_BubbleSort_2();
+		TestQ4_BubbleSort_Custom();
 		TestQ4_SelectionSort_1();
 		TestQ4_SelectionSort_2();
+		TestQ4_SelectionSort_Custom();
 
 		return (successCount == totalAssertions);
 	}
