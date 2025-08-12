@@ -501,7 +501,7 @@ int assert_equal_double(double a, double b, double tolRange)
 		successCount++;
 	else
 	{
-		printf("\t\t[ASSERTION] Expected: %c, but Actual: %c \n", a, b);	
+		printf("\t\t[ASSERTION] Expected: %f, but Actual: %f \n", a, b);	
 	}
 
     totalAssertions++;

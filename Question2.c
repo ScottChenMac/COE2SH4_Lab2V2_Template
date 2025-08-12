@@ -6,16 +6,22 @@
 void diag_scan(int mat [][N3], int arr [])
 {
 
-    // This is the first programming (scripting) question without any initial setup as hints.
+    int i, j, count;
+    int arrIndex = 0;
 
-    // This is also the first question requiring you to come up with an algorithm on paper 
-    // with mathematical analysis before implementing the code.
-
-    // High Level Hint:
-    //  Assume a 3x3 square matrix, look at the SUM of the row and column indices of each element.
-    //  You should be able to see a numerical pattern after doing so.
-
-
-    
+    for(count = 0; count < (2 * N3) - 1; count++)
+    {
+        for(i = 0; i < N3; i++)
+        {
+            for(j = 0; j < N3; j++)
+            {
+                if( (i + j) == count )
+                {
+                    arr[arrIndex++] = mat[i][j];
+                }
+            }
+        }
+    }
 
 }
+
